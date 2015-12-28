@@ -44,7 +44,7 @@ def main(episodenumber, testmode, live_tweet):
 
 if __name__ == "__main__":
     
-    episodenumber = 967
+    episodenumber = 968
     testmode = True
     live_tweet = False 
 
