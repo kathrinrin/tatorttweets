@@ -10,9 +10,9 @@ global countTweets
 global maxID
 global done
  
-lfd = 969
-dateFrom = '2016-01-01';  # Inclusive (YYYY-MM-DD)
-dateTo = '2016-01-02';  # Exclusive (YYYY-MM-DD)
+lfd = 970
+dateFrom = '2016-01-03';  # Inclusive (YYYY-MM-DD)
+dateTo = '2016-01-04';  # Exclusive (YYYY-MM-DD)
 
 
 keyword = '#Tatort'; 
