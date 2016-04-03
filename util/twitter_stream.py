@@ -59,8 +59,8 @@ class MyStreamer(TwythonStreamer):
                 
                 text = tweet['text']  
                 tweettime = datetime.strptime(tweet['created_at'], '%a %b %d %H:%M:%S +0000 %Y')
-                tweettime += timedelta(hours=1) # winter time 
-    #           tweettime += timedelta(hours=2)  # summer time 
+#                 tweettime += timedelta(hours=1) # winter time 
+                tweettime += timedelta(hours=2)  # summer time 
     
     
     #             check whether tweet is a retweet or not
