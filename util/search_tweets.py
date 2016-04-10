@@ -10,9 +10,9 @@ global countTweets
 global maxID
 global done
  
-lfd = 970
-dateFrom = '2016-01-03';  # Inclusive (YYYY-MM-DD)
-dateTo = '2016-01-04';  # Exclusive (YYYY-MM-DD)
+lfd = 976
+dateFrom = '2016-02-21';  # Inclusive (YYYY-MM-DD)
+dateTo = '2016-02-22';  # Exclusive (YYYY-MM-DD)
 
 
 keyword = '#Tatort'; 
@@ -73,7 +73,7 @@ conn.commit()
 
 
 
-countTweets = 0 
+countTweets = 14817
 maxID = 0
 done = 'false'; 
 
